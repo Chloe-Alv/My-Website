@@ -14,21 +14,31 @@ html {
   font-size: 18px; /* 18 / 16 = 1.125 */
   line-height: 22px;
 }
+
 h1,
 h2,
 h3,
 p {
-  padding-bottom: 22px;
+  padding-bottom: 11px; 
 
+}
+
+h1 {
+  font-size: 37.325px;
+  line-height: 33px; /* 22px * 1.5 = 33px */
+}
+
+h2 {
+  font-size: 25.92px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*
   A quick baseline grid overlay using css+svg.
   Inspired by [Basehold.it](https://basehold.it/). @author leshido
-  1. Paste this at the *very* bottom of your CSS file.
-  2. Change the `height` value on `<svg height="" ...>` to the value
-     of your `line-height` (in pixels).
-  3. Add `class="g"` to your `<html>` tag to display the grid.
  */
 
 .g body { position: relative; }
