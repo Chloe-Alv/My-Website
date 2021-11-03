@@ -11,9 +11,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font-family: "Tahoma", Verdana, Segoe, sans-serif;*/
-  font-size: 18px; /* 18 / 16 = 1.125 */
-  line-height: 22px;
-  padding: 11px
+  font-size: 18px; /* 18px / 16 = 1.125 */
+  line-height: 22px; /* 22px / 16 = 1.375 */
+  padding: 11px; /* (22/2 = 11) 11px / 16 = 0.6875 */
 }
 
 h1,
