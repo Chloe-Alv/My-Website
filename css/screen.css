@@ -9,36 +9,66 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
+  color: #111;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font-family: "Tahoma", Verdana, Segoe, sans-serif;*/
   font-size: 18px; /* 18px / 16 = 1.125 */
-  line-height: 22px; /* 22px / 16 = 1.375 */
-  padding: 11px; /* (22/2 = 11) 11px / 16 = 0.6875 */
+  line-height: 24px; /* 24px / 16 =  */
+  padding: 12px; /* (24/2 = 12) 12px / 16 = */
 }
 
 h1,
 h2,
 h3,
 p {
-  padding-bottom: 11px;
+  padding-bottom: 12px;
 
 }
 
 h1 {
   font-size: 37.325px;
-  line-height: 33px; /* 22px * 1.5 = 33px */
+  line-height: 36px; /* 24px * 1.5 = 36px */
+  text-align: center;
 }
 
 h2 {
   font-size: 25.92px;
   font-weight: bold;
-  padding-top: 11px;
+  padding-top: 6px; /* 24 / (1/4) */
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
+/* Modular Styles */
+#navigation a {
+  background-color: #9370DB;
+  color: #F0FFFF;
+  display: block;
+  line-height: 0px;
+  padding: 24px;
+}
+#navigation a:hover,
+#navigation a:active,
+#navigation a:focus,
+#about #nav-about {
+  background-color: #b198e6;
+}
+#navigation li {
+  margin-bottom: 6px;
+}
+/* State Styles */
+@media screen and (min-width: 330px) {
+  #navigation ul {
+    display: flex;
+    text-align: center;
+  }
+  #navigation ul > li {
+    flex: 1 0 auto;
+  }
+}
 
 /*
   A quick baseline grid overlay using css+svg.
@@ -48,7 +78,7 @@ a {
 .g body { position: relative; }
 
 .g body::after {
-  background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
+  background: url('data:image/svg+xml;utf8,<svg height="24" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
   content: "";
   display: block;
   pointer-events: none;
