@@ -33,7 +33,7 @@ h1 {
 h2 {
   font-size: 25.92px;
   font-weight: bold;
-  padding-top: : 6px; /* 24 / (1/4) */
+  padding-top: 6px; /* 24 / (1/4) */
 }
 
 a {
@@ -42,14 +42,21 @@ a {
 }
 
 .experience {
-  padding-bottom: 24px;
+  padding-bottom: 12px;
   list-style-type: circle;
+}
+
+.employer {
+  padding-top: 6px;
 }
 
 .employer,
 .start-and-end-date {
   font-size: 0.938em;
-  padding-top: 6px;
+}
+
+.h-card {
+  padding-bottom: 12px;
 }
 
 .job-title {
@@ -58,11 +65,15 @@ a {
   padding-top: 12px;
 }
 
+.professional-summary {
+  padding-top: 12px;
+}
+
 .skills li {
   list-style-type: circle;
 }
 .skills {
-  padding-bottom: 24px;
+  padding-bottom: 12px;
 }
 
 .professional-summary,
