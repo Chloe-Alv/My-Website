@@ -14,10 +14,8 @@ html {
   /*font-family: "Tahoma", Verdana, Segoe, sans-serif;*/
   font-size: 18px; /* 18px / 16 = 1.125 */
   line-height: 24px; /* 24px / 16 =  */
-  padding: 12px; /* (24/2 = 12) 12px / 16 = */
 }
 
-h1,
 h2,
 h3,
 p {
@@ -41,48 +39,89 @@ a {
   text-decoration: none;
 }
 
-.experience {
-  padding-bottom: 12px;
-  list-style-type: circle;
+#content {
+  padding: 48px;
 }
 
-.employer {
+#education {
+  padding-bottom: 48px;
+
+}
+
+#footer {
+  background-color: #9370DB;
+  color: #F0FFFF;
+  line-height: 24px;
+  padding: 12px;
+}
+
+#header {
+
+}
+
+#header h1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#professional-summary,
+#work-history,
+#education {
+  padding-bottom: 24px;
   padding-top: 6px;
 }
 
-.employer,
-.start-and-end-date {
-  font-size: 0.938em;
+#skills {
+  padding-bottom: 48px;
+  padding-top: 12px;
+}
+
+#skills h2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#skills li {
+  list-style: circle;
+  padding-left: 12px;
+}
+
+.experience {
+  list-style: circle;
+  padding-left: 12px;
+  padding-bottom: 24px;
+}
+
+.experience li {
+  padding-bottom: 6px;
 }
 
 .h-card {
-  padding-bottom: 12px;
+  font-size: 0.833em;
+  padding-bottom: 48px;
 }
 
-.job-title {
-  font-size: 1.35em;
-  padding-top: 12px;
+.job-title,
+.employer,
+.start-end-date {
+  font-size: 0.833em;
+  line-height: 22.5px;
 }
 
-.professional-summary {
-  padding-top: 12px;
-}
-
-.skills li {
-  list-style-type: circle;
-}
-.skills {
-  padding-bottom: 12px;
-}
-
-.professional-summary,
-.skills,
-.work-history {
-  margin-left: 24px;
-  margin-right: 24px;
+.degree,
+.date {
+  font-size: 0.833em;
+  list-style: circle;
+  line-height: 22.5px;
+  padding-left: 12px;
+  padding-bottom: 6px;
 }
 
 /* Modular Styles */
+#navigation {
+  padding: 48px;
+}
+
 #navigation a {
   background-color: #9370DB;
   color: #F0FFFF;
