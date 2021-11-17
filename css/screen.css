@@ -90,6 +90,10 @@ a {
   padding-left: 24px;
 }
 
+.description {
+  padding-bottom: 48px;
+}
+
 .experience {
   list-style: circle;
   padding-left: 24px;
@@ -115,6 +119,14 @@ a {
 .list-of-skills {
   list-style: circle;
   padding-left: 24px;
+}
+
+.topic {
+  font-size: 1.35em;
+  font-weight: bold;
+  padding-bottom: 6px;
+  padding-top: 6px;
+
 }
 
 /* Fundamental Responsive Image Styles */
