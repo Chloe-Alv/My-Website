@@ -43,9 +43,9 @@ a {
   padding: 48px;
 }
 
-#education {
-  padding-bottom: 48px;
-
+#education h2 {
+  padding-top: 12px;
+  padding-bottom: 24px;
 }
 
 #footer {
@@ -81,19 +81,21 @@ a {
   padding-bottom: 12px;
 }
 
-#skills li {
-  list-style: circle;
-  padding-left: 12px;
+.diploma-and-dates {
+  font-size: 0.833em;
+  list-style-type: circle;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 
 .experience {
   list-style: circle;
-  padding-left: 12px;
+  padding-left: 24px;
   padding-bottom: 24px;
 }
 
 .experience li {
-  padding-bottom: 6px;
+  padding-top: 6px;
 }
 
 .h-card {
@@ -108,18 +110,16 @@ a {
   line-height: 22.5px;
 }
 
-.degree,
-.date {
-  font-size: 0.833em;
+.list-of-skills {
   list-style: circle;
-  line-height: 22.5px;
-  padding-left: 12px;
-  padding-bottom: 6px;
+  padding-left: 24px;
 }
+
 
 /* Modular Styles */
 #navigation {
-  padding: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 #navigation a {
