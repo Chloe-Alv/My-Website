@@ -8,6 +8,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   color: #111;
   background-color: #e6e6fa;
@@ -83,6 +87,10 @@ a {
   padding-bottom: 12px;
 }
 
+.about-me {
+  padding-bottom: 48px;
+}
+
 .diploma-and-dates {
   font-size: 0.833em;
   list-style-type: circle;
@@ -121,6 +129,16 @@ a {
   padding-left: 24px;
 }
 
+.pics-of-romeo h2 {
+  text-align: center;
+  padding: 24px;
+}
+
+.pics-of-romeo li {
+  padding-top: 12px;
+  margin-bottom: 48px;
+}
+
 .topic {
   font-size: 1.35em;
   font-weight: bold;
@@ -131,8 +149,22 @@ a {
 
 /* Fundamental Responsive Image Styles */
 img {
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
+}
+
+figure {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+figcaption {
+  bottom: 0px;
+  font-size: 0.938em;
+  padding: 4px;
+  width: 100%;
 }
 
 
